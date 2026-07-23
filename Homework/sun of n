@@ -1,4 +1,3 @@
-n=int(input("enter a number"            ))
-i=0
-bo
+n = int(input("enter a nume=ber"))
 
+    

@@ -1,9 +1,9 @@
-#Price of item1 = 50
-#Price of item2 = 30
-#Print total price
-#Math = 40
-#Science = 50
-#Print total and average
+Price of item1 = 50
+Price of item2 = 30
+Print total price
+Math = 40
+Science = 50
+Print total and average
 
 #Math = 40
 #Science = 50

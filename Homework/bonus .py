@@ -9,7 +9,7 @@
 #If (hasCoupon or isFestival) and price > 800 → give 12% discount.
 
 #Else → no discount.
-coupon= bool(input("enter do you have a coupon "))
+#coupon= bool(input("enter do you have a coupon "))
 festival=bool (input("is it a festival "))
 price=100
 final = price
