@@ -1,0 +1,10 @@
+list=[12,2334,34,34,34,3,23]
+for i in range(0,7):
+    if list[i]>=90:
+        list[i]=list[i]+2
+    elif list[i]>=75 and list[i]>=89:
+        list[i]=list[i]+5
+    else:
+        list[i]=list[i]+10
+print(list)            
+        

@@ -1,0 +1,24 @@
+shopping = []
+while True:
+    print("""you can do:
+          1.add item
+          2 remove item
+          3.modify item
+          4 . show all inenss
+          5.exit""")
+    choice = int(input("enter a number:"))
+    if choice==1:
+        addingitem= input("enter a ite")
+        shopping.append(addingitem)
+        print("item has been added")
+    elif choice==2:
+        re = input("enter item")  
+        shopping.remove(re)
+    elif choice==3:
+        ren=input("enter a item")
+        shopping==ren  
+    elif choice==4:
+        print(shopping)
+    elif choice == 5:
+        break
+    print("thank")
