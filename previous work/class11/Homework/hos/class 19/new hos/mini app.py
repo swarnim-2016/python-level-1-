@@ -11,7 +11,7 @@ while True:
         contactname=(input("enter a name"))
         contacts.append(contactname)
         print("contact is  submited ")
-    if choice==2:
+    elif choice==2:
         recon=(input("enter a number")) 
         contacts.remove(recon)
         print("contact has been removed sucsessfuly")
