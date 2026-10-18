@@ -5,14 +5,24 @@ sceen.bgcolor("#01051f")
 make = turtle.Turtle("triangle")
 make.speed(0)
 make.color("white")
-for i in range (1000):
+for i in range (100
+                ):
     make.penup()
     make.goto(x=random.randint(-300,300),y=random.randint(-300,300))
     make.pendown()
     for e in range(10):
         make.forward(e)
         make.left(144)
-        
+make.penup()
+make.goto(x=100,y=100)
+make.pendown()
+for i in range(111):
+    make.forward(i)
+    make.left(144)        
+make.penup()
+make.goto(x=-120,y=150)
+make.pendown()
+make.circle(30)          
 
 
 
