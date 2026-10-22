@@ -1,3 +1,4 @@
+print("welcome to 3d print super app you can creat your own shapes or copy other shapes")
 import turtle
 screen=turtle.Screen()
 screen.bgcolor("yellow")
@@ -40,11 +41,18 @@ while True:
         square()
     elif choice==4:
         star()            
+    elif choice==5:
+        while True:
+            print("Now it is a time to make your own shape")
+            coor = int(input("enter your first coordnat"))
+            sec=int(input("enter your second coordnat"))
+            keep=input("enter your choice of if you want to keep drawing or you want exit")
+            if keep=="no i do not want to draw":
+                print("thank you for useing super 3d models app" )
+
+
+
+
 turtle.done()
-
-
-
-
-
 
    
